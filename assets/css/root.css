@@ -1,0 +1,149 @@
+:root{
+    /* font_size */
+    --fs-20:20px;
+    --fs-24:24px;
+    --fs-40:40px;
+    --fs-18:18px;
+    --fs-60:60px;
+    --fs-70:70px;
+    --fs-80:80px;
+    --fs-16:16px;
+    --fs-36:36px;
+    --fs-14:14px;
+    --fs-72:72px;
+    --fs-120:120px;
+
+/* font_wight */
+    --fw-800:800;
+    --fw-300:300;
+    --fw-600:600;
+    --fw-500:500;
+    --fw-400:400;
+    --fw-700:700;
+    --fw-900:900;
+}
+/* font_size
+ */
+ .fs-20{
+    font-size: var(--fs-20);
+}
+ .fs-24{
+    font-size: var(--fs-24);
+}
+ .fs-18{
+    font-size: var(--fs-18);
+}
+ .fs-72{
+    font-size: var(--fs-72);
+}
+ .fs-120{
+    font-size: var(--fs-120);
+}
+ .fs-14{
+    font-size: var(--fs-14);
+}
+ .fs-16{
+    font-size: var(--fs-16);
+}
+ .fs-40{
+    font-size: var(--fs-40);
+}
+ .fs-80{
+    font-size: var(--fs-80);
+}
+ .fs-36{
+    font-size: var(--fs-36);
+}
+ .fs-70{
+    font-size: var(--fs-70);
+}
+ .fs-60{
+    font-size: var(--fs-60);
+}
+/* --bs-blue: #0d6efd; */
+.color{
+    --bs-blue: #0d6efd;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white:#ffffff;
+}
+.text-black{
+    color: var(--bs-black);
+}
+.text-cyan{
+    color: var(--bs-cyan);
+}
+.text-teal{
+    color: var(--bs-teal);
+}
+
+
+@media (max-width:992px) {
+    .border-right{
+        border-right: 0;
+    }
+    .border-left{
+        border-left: 0;
+    }
+    :root{
+        /* font_size */
+        --fs-14:14px;
+        --fs-16:16px;
+        --fs-18:18px;
+        --fs-20:20px;
+        --fs-24:24px;
+        --fs-36:32px;
+        --fs-40:30px;
+        --fs-60:50px;
+        --fs-70:60px;
+        --fs-72:62px;
+        --fs-80:68px;       
+        --fs-120:100px;
+    
+}
+}
+@media (max-width:768px) {
+
+    :root{
+        /* font_size */
+        --fs-14:14px;
+        --fs-16:16px;
+        --fs-18:18px;
+        --fs-20:20px;
+        --fs-24:24px;
+        --fs-36:28px;
+        --fs-40:28px;
+        --fs-60:46px;
+        --fs-70:54px;
+        --fs-72:58px;
+        --fs-80:62px;       
+        --fs-120:65px;
+    
+}
+}
+@media (max-width:576px) {
+
+    :root{
+        /* font_size */
+        --fs-14:14px;
+        --fs-16:16px;
+        --fs-18:18px;
+        --fs-20:20px;
+        --fs-24:24px;
+        --fs-36:28px;
+        --fs-40:28px;
+        --fs-60:46px;
+        --fs-70:54px;
+        --fs-72:50px;
+        --fs-80:62px;       
+        --fs-120:65px;
+    
+}
+}
