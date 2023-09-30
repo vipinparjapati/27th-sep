@@ -334,6 +334,9 @@ font-size: 80px;
 
 }
 .mr-8{margin-right: 8px;}
+.bg-pig{
+    background-color: #ECE4DD;
+}
 
   @media (max-width: 600px) {
     .timeline::after {
