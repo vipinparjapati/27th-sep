@@ -335,7 +335,10 @@ font-size: 80px;
 }
 .mr-8{margin-right: 8px;}
 .bg-pig{
-    background-color: #ECE4DD;
+    background-image:url(../image/pinki.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
   @media (max-width: 600px) {
